@@ -1,0 +1,51 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.MyImage{
+  border-radius:200px;
+}
+
+.Greetings{
+  background: -webkit-linear-gradient(#302673, #2E578C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin:10px;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color:#363332;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 16px;
+  
+  padding: 10px;
+  border: 0;
+  border-radius: 15px;
+  background: -webkit-linear-gradient(#24BFB0, #2E578C);
+  color:white;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
